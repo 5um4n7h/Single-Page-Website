@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page Website</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#mast{
+
+  width: 100%;
+  background-color: #ddd;
+  height: 50px;
+  margin-top: 20px;
+  position: fixed;
+
+}
+
+
+.container{
+max-width: 1040px;
+border: 1px solid black;
+margin: 0 auto;
+
+
+}
+section{
+border: 1px solid #ddd;
+min-height: 500px;
+
+}
+#nav{
+  float: right;
+    margin-top: 10px;
+    width: 600px;
+}
+#nav ul{
+  list-style: none;
+  margin: 0 auto;
+  display: block;
+}
+#nav li{
+  float: left;
+  padding: 0 10px;
+  margin: 2px;
+  background-color: black;
+
+}
+#nav li a{
+text-decoration: none;
+font-size: 1em;
+color: white;
+
+}
+#nav li a:hover{
+color: red;
+
+}
+
+#nav li a.active{
+border-bottom: 3px solid yellow;
+color:yellow;
+
+
+}
+
+.clear{
+  clear: both;
+}
+.wrap{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(200,200,200);
+  border-radius: 20px;
+  padding:20px;
+  margin: 40px auto;
+
+}
+
+
+#section1{
+background: url('http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section 1');
+background-size:cover;
+padding: 100px;
+
+
+}
+
+#section2{
+background-color: #fff;
+padding: 100px;
+
+
+}
+#section3{
+background: url('http://via.placeholder.com/1200x800/00FFFF/FFFF33?text=Section 3');
+background-size:cover;
+padding: 100px;
+
+
+}
+#section4{
+background-color: #fff;
+padding: 100px;
+
+
+}
+#section5{
+background-color: #fff;
+padding: 100px;
+
+
+}
+#section6{
+background-color: #fff;
+padding: 100px;
+
+
+}
+    </style>
+  </head>
+  <body>
+    <header id="mast">
+
+      <div class="container">
+
+        <nav id="nav">
+          <ul>
+            <li><a href="#section1" class="active">section 1 </a></li>
+            <li><a href="#section2" >section 2 </a></li>
+            <li><a href="#section3" >section 3 </a></li>
+            <li><a href="#section4" >section 4 </a></li>
+            <li><a href="#section5" >section 5 </a></li>
+            <li><a href="#section6" >section 6 </a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+    </header>
+<section id="section1" class="section clear">
+  <div class="wrap">
+  <p>  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+  </p>
+    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+<p>
+  </div>
+</section>
+<section id="section2" class="section">
+  <div class="wrap">
+    <img src="http://via.placeholder.com/350x150">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+
+    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum</p>
+  </div>
+</section>
+<section id="section3" class="section">
+  <div class="wrap">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+
+    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+
+    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam</p>
+  </div>
+</section>
+<section id="section4" class="section">
+  <div class="wrap">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+  </div>
+</section>
+<section id="section5" class="section">
+  <div class="wrap">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+
+    <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+    <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend</p>
+  </div>
+</section>
+<section id="section6" class="section">
+  <div class="wrap">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+    <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+  </div>
+</section>
+
+<footer>
+<div class="">
+<div class="col-1">(c) copyright my website blah blah blah <p>
+  Contact us for more info </p>
+  </div>
+<div
+</div>
+</div>
+</footer>
+<script type="text/javascript">
+  var section = document.querySelectorAll('.section');
+  console.log(section);
+  var sections = {};
+  section.forEach((item, i) => {
+    console.log(item.id,item.offsetTop)
+    sections[item.id] = item.offsetTop;
+  })
+  window.onscroll = function(){
+    var scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+  console.log("scroll");
+  for(var x in sections){
+
+    if(sections[x]<=scrollPos){
+      document.querySelector('.active').setAttribute('class','');
+      document.querySelector('a[href*='+x+']').setAttribute('class','active')
+    }
+  }
+  }
+</script>
+
+  </body>
+</html>
